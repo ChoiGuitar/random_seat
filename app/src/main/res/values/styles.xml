@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DisabledSeat">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/disabled_bg</item>
+    </style>
+
+    <style name="ActivatedSeat">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/activated_bg</item>
+    </style>
+
+    <style name="SelectedSeat">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/selected_bg</item>
+    </style>
+</resources>
