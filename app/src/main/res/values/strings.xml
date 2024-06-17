@@ -1,3 +1,74 @@
 <resources>
     <string name="app_name">청년부 자리표</string>
+    <string name="random_seat_button">자리뽑기</string>
+
+    <string name="a01">창1</string>
+    <string name="a02">창2</string>
+    <string name="a03">창3</string>
+    <string name="a04">창4</string>
+    <string name="a05">창5</string>
+    <string name="a06">창6</string>
+    <string name="a07">창7</string>
+    <string name="a08">창8</string>
+    <string name="a09">창9</string>
+    <string name="a10">창10</string>
+    <string name="a11">창11</string>
+    <string name="a12">창12</string>
+    <string name="a13">창13</string>
+    <string name="a14">창14</string>
+
+    <string name="b01">출1</string>
+    <string name="b02">출2</string>
+    <string name="b03">출3</string>
+    <string name="b04">출4</string>
+    <string name="b05">출5</string>
+    <string name="b06">출6</string>
+    <string name="b07">출7</string>
+    <string name="b08">출8</string>
+    <string name="b09">출9</string>
+    <string name="b10">출10</string>
+    <string name="b11">출11</string>
+    <string name="b12">출12</string>
+    <string name="b13">출13</string>
+    <string name="b14">출14</string>
+    <string name="b15">출15</string>
+    <string name="b16">출16</string>
+
+    <string name="c01">레1</string>
+    <string name="c02">레2</string>
+    <string name="c03">레3</string>
+    <string name="c04">레4</string>
+    <string name="c05">레5</string>
+    <string name="c06">레6</string>
+    <string name="c07">레7</string>
+    <string name="c08">레8</string>
+    <string name="c09">레9</string>
+    <string name="c10">레10</string>
+    <string name="c11">레11</string>
+    <string name="c12">레12</string>
+    <string name="c13">레13</string>
+    <string name="c14">레14</string>
+    <string name="c15">레15</string>
+    <string name="c16">레16</string>
+    <string name="c17">레17</string>
+    <string name="c18">레18</string>
+
+    <string name="d01">민1</string>
+    <string name="d02">민2</string>
+    <string name="d03">민3</string>
+    <string name="d04">민4</string>
+    <string name="d05">민5</string>
+    <string name="d06">민6</string>
+    <string name="d07">민7</string>
+    <string name="d08">민8</string>
+    <string name="d09">민9</string>
+    <string name="d10">민10</string>
+    <string name="d11">민11</string>
+    <string name="d12">민12</string>
+
+    <string name="e01">신1</string>
+    <string name="e02">신2</string>
+    <string name="e03">신3</string>
+    <string name="e04">신4</string>
+    <string name="e05">신5</string>
 </resources>
