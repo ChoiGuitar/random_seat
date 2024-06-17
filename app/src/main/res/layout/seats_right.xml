@@ -1,13 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    app:layout_constraintHeight_percent="0.5"
-    app:layout_constraintWidth_percent="0.3"
-    app:layout_constraintTop_toTopOf="parent"
+    android:id="@+id/layout_seats_right"
+    android:layout_width="400dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:layout_marginEnd="60dp"
+    android:rotation="-15"
     app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent">
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <View style="@style/DisabledSeat" />
+
+        <View style="@style/DisabledSeat" />
+
+        <View style="@style/DisabledSeat" />
+
+        <View style="@style/DisabledSeat" />
+
+        <View style="@style/DisabledSeat" />
+
+        <View style="@style/DisabledSeat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+        
+        <View style="@style/DisabledSeat" />
+        
+        <TextView
+            android:id="@+id/a10"
+            style="@style/ActivatedSeat"
+            android:text="@string/a10" />
+
+        <TextView
+            android:id="@+id/a11"
+            style="@style/ActivatedSeat"
+            android:text="@string/a11" />
+
+        <TextView
+            android:id="@+id/a12"
+            style="@style/ActivatedSeat"
+            android:text="@string/a12" />
+
+        <TextView
+            android:id="@+id/a13"
+            style="@style/ActivatedSeat"
+            android:text="@string/a13" />
+
+        <TextView
+            android:id="@+id/a14"
+            style="@style/ActivatedSeat"
+            android:text="@string/a14" />
+
+        <View style="@style/DisabledSeat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <View style="@style/DisabledSeat" />
+
+        <TextView
+            android:id="@+id/b11"
+            style="@style/ActivatedSeat"
+            android:text="@string/d05" />
+
+        <TextView
+            android:id="@+id/b12"
+            style="@style/ActivatedSeat"
+            android:text="@string/b12" />
+
+        <TextView
+            android:id="@+id/b13"
+            style="@style/ActivatedSeat"
+            android:text="@string/b13" />
+
+        <TextView
+            android:id="@+id/b14"
+            style="@style/ActivatedSeat"
+            android:text="@string/b14" />
+
+        <TextView
+            android:id="@+id/b15"
+            style="@style/ActivatedSeat"
+            android:text="@string/b15" />
+
+        <TextView
+            android:id="@+id/b16"
+            style="@style/ActivatedSeat"
+            android:text="@string/b16" />
+
+        <View style="@style/DisabledSeat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/c12"
+            style="@style/ActivatedSeat"
+            android:text="@string/c12" />
+
+        <TextView
+            android:id="@+id/c13"
+            style="@style/ActivatedSeat"
+            android:text="@string/c13" />
+
+        <TextView
+            android:id="@+id/c14"
+            style="@style/ActivatedSeat"
+            android:text="@string/c14" />
+
+        <TextView
+            android:id="@+id/c15"
+            style="@style/ActivatedSeat"
+            android:text="@string/c15" />
+
+        <TextView
+            android:id="@+id/c16"
+            style="@style/ActivatedSeat"
+            android:text="@string/c16" />
+
+        <TextView
+            android:id="@+id/c17"
+            style="@style/ActivatedSeat"
+            android:text="@string/c17" />
+
+        <TextView
+            android:id="@+id/c18"
+            style="@style/ActivatedSeat"
+            android:text="@string/c18" />
+
+        <View style="@style/DisabledSeat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/d06"
+            style="@style/ActivatedSeat"
+            android:text="@string/d06" />
+
+        <TextView
+            android:id="@+id/d07"
+            style="@style/ActivatedSeat"
+            android:text="@string/d07" />
+
+        <TextView
+            android:id="@+id/d08"
+            style="@style/ActivatedSeat"
+            android:text="@string/d08" />
+
+        <TextView
+            android:id="@+id/d09"
+            style="@style/ActivatedSeat"
+            android:text="@string/d09" />
+
+        <TextView
+            android:id="@+id/d10"
+            style="@style/ActivatedSeat"
+            android:text="@string/d10" />
+
+        <TextView
+            android:id="@+id/d11"
+            style="@style/ActivatedSeat"
+            android:text="@string/d11" />
+
+        <TextView
+            android:id="@+id/d12"
+            style="@style/ActivatedSeat"
+            android:text="@string/d12" />
+
+        <View style="@style/DisabledSeat" />
+    </LinearLayout>
+
+</LinearLayout>
