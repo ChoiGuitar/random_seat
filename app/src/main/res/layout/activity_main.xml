@@ -27,7 +27,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
-        android:backgroundTint="@color/gray"
         android:text="@string/random_seat_button"
         android:textColor="@color/black"
         android:textSize="40sp"
