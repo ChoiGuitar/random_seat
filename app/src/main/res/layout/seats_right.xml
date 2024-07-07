@@ -77,7 +77,7 @@
         <TextView
             android:id="@+id/b11"
             style="@style/ActivatedSeat"
-            android:text="@string/d05" />
+            android:text="@string/b11" />
 
         <TextView
             android:id="@+id/b12"
