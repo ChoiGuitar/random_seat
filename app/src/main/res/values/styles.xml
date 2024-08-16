@@ -4,6 +4,7 @@
     <style name="DisabledSeat">
         <item name="android:layout_width">50dp</item>
         <item name="android:layout_height">50dp</item>
+        <item name="android:enabled">false</item>
         <item name="android:background">@drawable/disabled_bg</item>
     </style>
 
@@ -14,7 +15,9 @@
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:enabled">true</item>
         <item name="android:background">@drawable/activated_bg</item>
     </style>
 
@@ -25,7 +28,9 @@
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:enabled">false</item>
         <item name="android:background">@drawable/selected_bg</item>
     </style>
 </resources>
